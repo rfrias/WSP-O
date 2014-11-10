@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gym Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="gallery.html" rel="html">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div id="fixedText" class="hidden-md hidden-sm hidden-xs">Prototype</div>
+<div class="container">
+    <div class="row">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    menu
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="#ContactInfo">Contact</a></li>
+                    <li><a href="#submittedBy">Submitted By</a></li>
+                        <form class="form-inline padForNavbar" role="form">
+                          <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail2">Username</label>
+                            <input type="username" class="form-control" id="exampleInputEmail2" placeholder="Username">
+                          </div>
+                          <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword2">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                          </div>
+                          <button type="submit" class="btn btn-danger">Sign in</button>
+                        </form>
+                    </li>  
+                </ul> 
+            </div> 
+        </nav>
+    </div> 
+    <div class="jumbotron">
+    	<img src="img/gym10.jpeg" alt="" id="gym10" class="hidden-sm hidden-xs pull-left img-responsive img-rounded">
+        <h1>Gym Finder</h1>
+        <p class="hidden-xs firstP">This site will help you find the best gym fit for you! From the convenience of searching a nearby gym OR finding a community where you can learn and grow as a team this site will help you accomplish your goals!
+        <br>
+        <br>
+        So join us and we can help you find the best suited gym just for you!</p>
+    </div>
+    <h2>Featured</h2>
+    <div class="row">
+    <a name="About"></a>
+    	<div class="col-lg-3 col-md-12 col-xs-12">
+            <div class="thumbnail">
+                <p><img src="img/gym7.jpeg" alt="" class="hidden-xs img-responsive img-rounded"></p>
+                <h4>Gym 7</h4>
+                  <p>This is gym is located near you! Come join us now!</p>
+                <p><a href="gym7.html" id="scale" class="btn btn-danger btn-lrg">Learn more >></a></p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-xs-12">
+            <div class="thumbnail">
+                <p><img src="img/gym8.jpeg" alt="" class="hidden-xs img-responsive img-rounded"></p>
+                <h4>Gym 8</h4>
+                <p>We're offering a 6month membersip for $1 a month!</p>
+                <p><a href="gym8.html" id="scale" class="btn btn-danger btn-lrg">Learn more >></a></p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-xs-12">
+            <div class="thumbnail">
+                <p><img src="img/gym9.jpeg" alt="" class="hidden-xs img-responsive img-rounded"></p>
+                <h4>Gym 9</h4>
+                <p>Become a gym member and you can take free Boxing classes!</p>
+                 <p><a href="gym9.html" id="scale" class="btn btn-danger btn-lrg">Learn more >></a></p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-xs-12">
+            <div class="thumbnail">
+                <p><img src="img/gym11.jpeg" alt="" class="hidden-xs img-responsive img-rounded"></p>
+                <h4>Gym 11</h4>
+                <p>We'll help you accomplish your goals fast and easy!</p>
+                 <p><a href="gym11.html" id="scale" class="btn btn-danger btn-lrg">Learn more >></a></p>
+            </div>
+         </div>
+    </div>
+
+    <aside id="skewX" class="col-lg-12">
+            <h3><a name="ContactInfo"></a>Need help finding a gym? Try contacting one of our representatives so that they can personally help you find the gym you want!</h3>
+            <div class="table-responsive">
+              <table class="table table-condensed">
+                <thead>
+                  <tr>
+                    <th>Representatives</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Hunt</td>
+                    <td>(123) 456-7890</td>
+                    <td>hunt.bowen@gymfinder.us</td>
+                  </tr>
+                  <tr>
+                    <td>Shepeard</td>
+                    <td>(123) 456-7890</td>
+                    <td>shepeard.kasp@gymfinder.us</td>
+                  </tr>
+                  <tr>
+                    <td>Grey</td>
+                    <td>(123) 456-7890</td>
+                    <td>grey.merideth@gymfinder.us</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+    </aside>
+
+    <footer class="row">
+    <div id="default" class="transEx"><strong><a name="submittedBy"></a>Sumbitted By :</strong> Ramon Frias</div>
+    </footer>
+
+</div>
+</body>
+</html>
